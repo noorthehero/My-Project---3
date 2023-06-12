@@ -123,6 +123,7 @@ body .container {
   justify-content: space-between;
   padding: 20px 60px 20px 60px;
   background: #fff;
+  align-items: center;
 }
 #header #menubar .logo h1 {
   font-size: 25px;
