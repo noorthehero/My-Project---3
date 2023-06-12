@@ -5,6 +5,7 @@
             display: flex;
             justify-content: space-between;
             padding: 10px 60px;
+            align-items: center;
 
             .left-top {
                 display: flex;
@@ -14,7 +15,6 @@
                 .shipping {
                     display: flex;
                     justify-content: center;
-                    align-items: center;
                     gap: 10px;
                     font-weight: 600;
                     font-size: 12px;
