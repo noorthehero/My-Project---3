@@ -1,0 +1,181 @@
+#header {
+    #menu-area {
+        .top {
+            background: #f5f5f5;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 60px;
+
+            .left-top {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+
+                .shipping {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    font-weight: 600;
+                    font-size: 12px;
+                }
+
+                .flag {
+                    ul {
+                        display: flex;
+                        justify-content: center;
+                        gap: 15px;
+                        font-weight: 600;
+                        font-size: 12px;
+
+                        li {
+                            list-style: none;
+                            display: flex;
+                            justify-content: center;
+
+                            svg {
+                                width: 10px;
+                                margin-left: 5px;
+                                vertical-align: middle;
+                            }
+
+                        }
+
+                        .usfl {
+                            display: flex;
+                            gap: 10px;
+
+                            .pic {
+                                img {
+                                    width: 16px;
+                                    height: 16px;
+                                    border-radius: 50%;
+                                    vertical-align: middle;
+                                }
+                            }
+                        }
+
+                        .pipe {
+                            width: 1px;
+                            height: 10px;
+                            background: rgb(187, 172, 172);
+                            margin: 4px 0px 0px 3px;
+                        }
+                    }
+                }
+            }
+
+            .right-top {
+                display: flex;
+                gap: 30px;
+                justify-content: center;
+
+                .faq {
+                    ul {
+                        display: flex;
+                        justify-content: center;
+                        gap: 20px;
+
+                        li {
+                            list-style: none;
+
+                            a {
+                                font-size: 12px;
+                                font-weight: 600;
+                                color: #212529;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+
+                .icon {
+                    ul {
+                        display: flex;
+                        justify-content: center;
+                        gap: 10px;
+
+                        li {
+                            list-style: none;
+
+                            a {
+                                font-size: 12px;
+                                font-weight: 600;
+                                color: #9299a0;
+                                text-decoration: none;
+
+                                svg {
+                                    width: 12px;
+                                }
+
+                                img {
+                                    width: 18px;
+                                    filter: opacity(.4);
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #menubar {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 60px 20px 60px;
+        background: #fff;
+
+        .logo {
+            h1 {
+                font-size: 25px;
+                font-weight: bold;
+                color: #000;
+            }
+        }
+
+        .middle-menu {
+            ul {
+                display: flex;
+                justify-content: center;
+                gap: 25px;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                        font-weight: 600;
+                        &:hover{
+                            border-bottom: 2px solid orangered;
+                            padding-bottom: 3px;
+                            color: orangered;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right-menu {
+            ul {
+                display: flex;
+                justify-content: center;
+                gap: 18px;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+
+                        img {
+                            width: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

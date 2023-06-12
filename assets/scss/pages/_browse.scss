@@ -1,0 +1,194 @@
+#browse-page{
+    #main-browse{
+        // margin-top: 60px;
+        display: flex;
+        gap: 50px;
+        .left-browse{
+            flex-basis: 25%;
+            ul{
+                padding: 0;
+                li{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items:flex-end;
+                    border-bottom: 1px solid rgb(199, 195, 195);
+                    font-size: 16px;
+                    padding-bottom: 5px;
+                    font-weight: 700;
+                    p{
+                        margin-top: 35px;
+                    }
+                    svg{
+                        font-size: 15px;
+                        height: 15px;
+                        width: 15px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .right-browse{
+            flex-basis: 75%;
+            margin-top: 35px;
+            .summer-collection{
+                display: flex;
+                justify-content: space-between;
+                background: rgb(228, 227, 227);
+                align-items: center;
+                padding-left: 60px;
+                .summer-text{
+                    flex-basis: 35%;
+                    h3{
+                       font-size: 25px;
+                       font-weight: 700;
+                       letter-spacing: .75px; 
+                    }
+                    button{
+                        border: none;
+                        margin-top: 20px;
+                        background: rgb(228, 227, 227);
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: black;
+                        letter-spacing: .5px;
+                        svg{
+                            margin-left: 10px;
+                        }
+
+                    }
+                }
+                .summer-pic{
+                    flex-basis: 65%;
+                    img{
+                        height: 325px;
+                        width: 100%;
+                    }
+                }
+                
+            }
+            .women-clothing{
+                margin-top: 40px;
+                .clothing-head{
+                    display: flex;
+                    justify-content: space-between;
+                    .left-clothing{
+                        margin-bottom: 70px;
+                        h2{
+                            font-size: 28px;
+                            font-weight: bold;
+                            letter-spacing: 1px;
+                        }
+                        ul{
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 8px;
+                            padding: 0;
+                            li{
+                                list-style: none;
+                                margin-right: 15px;
+                                
+                                :hover{
+                                    color: red;
+                                    border-bottom: 1px solid rgb(217, 61, 61);
+                                    padding-bottom: 3px;
+                                }
+                                a{
+                                    text-decoration: none;
+                                    color: rgb(100, 52, 52);
+                                    font-weight: 600;
+                                    font-size: 13px;
+                                    letter-spacing: 0.75px;
+                                    svg{
+                                        width: 11px;
+                                        height: 11px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right-clothing{
+                        select{
+                            padding: 10px 50px 10px 10px;
+                            font-size: 13px;
+                            font-weight: 600;
+                            color: rgb(124, 120, 120);
+                        }
+                    }
+                }
+                
+                .women-clothing-main{
+                    display: flex;
+                    gap: 30px;
+                    margin-bottom: 60px;
+                    .women-clothing-display{
+                        flex-basis: 33.33%;
+                        .women-cloth{
+                            position: relative;
+                            img{
+                                width: 100%;
+                                height: 350px;
+                            };
+                            span{
+                                background: $white;
+                                color: $black;
+                                font-size: 13px;
+                                padding: 5px 15px;
+                                position: absolute;
+                                top: 10%;
+                            }
+                            .bla{
+                                background: $black;
+                                color: $white;  
+                            }
+                        
+                        }
+                        .women-cloth-des{
+                            margin-top: 20px;
+                            .item{
+                                font-size: 15px;
+                                color: $blakshadow;
+                                margin-bottom: 5px;
+                            }
+                            h6{
+                                font-size: 17px;
+                                font-weight: bold;
+                            }
+                            .doller{
+                                font-size: 16px;
+                                font-weight: 600;
+                                color: $blakshadow;
+                                .redMark{
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    color: rgb(244, 103, 103);
+                                    margin-left: 20px; 
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+            .page-changes{
+                margin: 30px auto 80px;
+                display: flex;
+                justify-content: flex-end;
+                button{
+                    border: none;
+                    background: #fff;
+                    color:#55626c;
+                    padding: 5px 15px;
+                }
+                .number{
+                    color: #636b71;
+                    font-size: 15px;
+                    border-bottom: 2px solid #cacdd0;
+                    &:hover{
+                        border-bottom: 2px solid orangered;
+                    }
+                }
+            }
+        }
+    }
+}

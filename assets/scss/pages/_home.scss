@@ -1,0 +1,508 @@
+#home-page {
+    #display{
+        .display-top{
+            background: rgb(16, 15, 15);
+            p{
+                color: #fff;
+                font-size: 12px;
+                letter-spacing: 1px;
+                padding: 15px;
+                text-align: center;
+            }
+        }
+        .display-pic{
+            display: flex;
+            justify-content: center;
+            margin: 15px 0px;
+            padding: 0;
+            .tradition{
+                flex-basis: 33.33%;
+                position: relative;
+                text-align: center;
+                p{
+                    color: #fff;
+                    position: absolute;
+                    top: 40%;
+                    left: 35%;
+                    font-size: 35px;
+                    font-weight: bold;
+                    letter-spacing: 2px;
+                }
+                button{
+                    position:absolute;
+                    top: 80%;
+                    left: 30%;
+                    background: #fff;
+                    padding: 12px 25px;
+                    font-weight: 600;
+                    text-align: center;
+                    color: #000;
+                    border: none;
+                    svg{
+                        margin-left: 12px;
+                    }
+                }
+                img{
+                    height: 400px;
+                    width: 100%;  
+                }
+            }
+        }
+    }
+    #hero-area{
+        margin: 30px 90px;
+        .facilities{
+            display: flex;
+            border-bottom: 1px solid #b9bec2;
+            padding-bottom: 30px;
+            .facility{
+                display: flex;
+                gap: 20px;
+                flex-basis: 25%;
+                .fac-icon{
+                    margin-bottom: 10px;
+                    svg{
+                        height: 25px;
+                        width: 23px;
+                        color: orangered;
+                    } 
+                }
+                .fac-des{
+                    .head-ship{
+                        font-weight: bold;
+                        font-size: 14px;
+                        color: rgb(0, 0, 0);
+                    }
+                    a{
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: $blakshadow;
+                        margin-top: 5px;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .best-picks{
+            margin-top: 80px;
+            .best-pic-head{
+                font-size: 13px;
+                font-weight: bold;
+                text-align: center;
+                .new{
+                    margin-bottom: 15px;
+                    color: $blakshadow;
+                }
+                h1{
+                    font-size: 35px;
+                    font-weight: bold;
+                    color: $black;
+                }
+                .best-pic-des{
+                    margin-top: 30px;
+                    font-size: 17px;
+                    color: $blakshadow;
+                    letter-spacing: .5px;
+                    line-height: 1.75;
+                }
+            }
+            .best-picture{
+                margin:70px 0;
+                .up-pic{
+                    display: flex;
+                    justify-content: center;
+                    gap: 30px;
+                    .left-pic{
+                        flex-basis: 35%;
+                        background-image: url("/assets/images/bags.jpg");
+                        height: 400px;
+                        background-position: center;
+                        position: relative;
+                        p{
+                            color: $white;
+                            font-size: 25px;
+                            font-weight: 500;
+                            position: absolute;
+                            top: 40%;
+                            left: 30%;
+                        }
+                        a{
+                            position: absolute;
+                            color: $white;
+                            top: 55%;
+                            left: 40%;
+                            text-decoration: none;
+                            svg{
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                    .right-pic{
+                        flex-basis: 65%;
+                        background-image: url("/assets/images/print_m.jpg");
+                        background-repeat: no-repeat;
+                        // background-position: center;
+                        height: 400px;
+                        background-size: cover;
+                        position: relative;
+                        .save-offer{
+                            position: absolute;
+                            left: 84%;
+                            top: 5%;
+                            width: 95px;
+                            height: 95px;
+                            text-align: center;
+                            border-radius: 50%;
+                            color: $white;
+                            background: $black;
+                            p{
+                                padding: 15px 0 2px 0;
+                            }
+                            h3{
+                                font-weight: bold;
+                            }
+
+                        }
+                        .sp{
+                            position: absolute;
+                            top: 30%;
+                            left: 10%;
+                            letter-spacing: 1px;
+                            font-size: 25px;
+                            font-weight: bold;
+                            color: $white;
+                        }
+                        a{
+                            position: absolute;
+                            top: 55%;
+                            left: 10%;
+                            color: $white;
+                            svg{
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                        
+                }
+                .down-pic{
+                    display: flex;
+                    justify-content: center;
+                    gap: 30px;
+                    margin-top: 30px;
+                    .right-d-pic{
+                        flex-basis: 65%;
+                        background-image: url("/assets/images/borkha.jpg_.webp");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 400px;
+                        position: relative;
+                        p{
+                            position: absolute;
+                            top: 35%;
+                            left: 10%;
+                            letter-spacing: 1px;
+                            font-size: 25px;
+                            font-weight: bold;
+                            color: $white;
+                        }
+                        a{
+                            position: absolute;
+                            top: 57%;
+                            left: 10%;
+                            color: $white;
+                            svg{
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                    .left-d-pic{
+                        flex-basis: 35%;
+                        background-image: url("/assets/images/suwetshirt.avif");
+                        height: 400px;
+                        background-size: cover;
+                        background-position:center;
+                        position: relative;
+                        p{
+                            color: $white;
+                            font-size: 25px;
+                            font-weight: 500;
+                            position: absolute;
+                            top: 40%;
+                            left: 30%;
+                        }
+                        a{
+                            position: absolute;
+                            color: $white;
+                            top: 53%;
+                            left: 35%;
+                            svg{
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .top-month{
+            .head{
+                text-align: center;
+                margin-bottom: 70px;
+                h2{
+                    font-size: 30px;
+                    font-weight: bold;
+                    letter-spacing: 1.2px;
+                }
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 20px;
+                    li{
+                        list-style: none;
+                        margin-right: 25px;
+                        
+                        :hover{
+                            color: red;
+                            border-bottom: 1px solid rgb(217, 61, 61);
+                            padding-bottom: 3px;
+                        }
+                        a{
+                            text-decoration: none;
+                            color: $black;
+                            font-weight: 600;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .topMonth-d-main{
+                display: flex;
+                gap: 30px;
+                margin-bottom: 60px;
+                .topMonth-display{
+                    flex-basis: 25%;
+                    .topMonth{
+                        .links{
+                            display: block;
+                            position: relative;
+                            img{
+                                width: 100%;
+                                height: 350px;
+                            }
+                            span{
+                            background: $white;
+                            color: $black;
+                            font-size: 13px;
+                            padding: 5px 15px;
+                            position: absolute;
+                            top: 10%;
+                            }
+                            .bla{
+                                background: $black;
+                                color: $white;  
+                            }
+                        }
+                        
+                    
+                    }
+                    .topMonth-des{
+                        margin-top: 20px;
+                        .item{
+                            font-size: 15px;
+                            color: $blakshadow;
+                            text-decoration: none;
+                            cursor: pointer;
+
+                        }
+                        h6{
+                            font-size: 17px;
+                            font-weight: bold;
+                            margin-top: 7px;
+                        }
+                        .doller{
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: $blakshadow;
+                            .redMark{
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: rgb(244, 103, 103);
+                                margin-left: 20px; 
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        
+
+    }
+    #carosel{
+        text-align: center;
+        a{
+            font-size: 15px;
+            font-weight: 700;
+            border-bottom: 2px solid rgb(0, 0, 0);
+            padding: 3px;
+            text-decoration: none;
+            color: $black;
+        }
+        .caro-pic{
+           margin: 80px 0px; 
+           position: relative;
+           button{
+            position: absolute;
+            top: 85%;
+            left: 50%;
+            background: $black;
+            padding: 5px 15px;
+            color: $white;
+            border: none;
+            
+           }
+           img{
+            width: 100%;
+            height: 450px;
+           }
+        }
+    }
+    #review{
+        p{
+            font-size: 13px;
+            font-weight: 700;
+            color: $blakshadow;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        h2{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .reviews{
+            margin: 70px 80px;
+            display: flex;
+            gap: 25px;
+            .review1{
+                border: 1.5px solid rgb(225, 220, 220);
+                padding: 25px;
+                flex-basis: 33.33%;
+                .reviewPic{
+                    display: flex;
+                    justify-content: flex-start;
+                    img{
+                        width: 70px;
+                        height: 70px;
+                    }
+                    .rates{
+                        margin-left: 20px;
+                        .title{
+                            margin: 5px 0px;
+                            text-align: start;
+                        }
+                        .heading{
+                            margin: 0;
+                            color: $black;
+                            font-size: 14px;
+                            font-weight: 700;
+                        }
+                        span{
+                            svg{
+                                width: 13px;
+                                color: orange;
+                            }
+                        }
+                    }
+                }
+                .r-comment{
+                    margin: 20px 0px 15px 0px;
+                    text-align: start;
+                    font-weight: bold;
+                    color: #69727b;
+                }
+                .nameDate{
+                    text-align: start;
+                    font-size: 11px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .ch-page{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 70px;
+            .dot{
+                width: 7px;
+                height: 7px;
+                background: #de4526;
+                border-radius: 50%;
+            }
+            :first-child, :last-child{
+                background: #a8b3be;
+            }
+        }
+    }
+    #shopper{
+        background:#f5f5f5;
+        height: 350px;
+        margin-bottom: 80px;
+        h2{
+            padding: 90px 0px 0px 0px;
+            font-size: 35px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-align: center;
+
+        }
+        p{
+            font-size: 17px;
+            font-weight: 600;
+            color: $blakshadow;
+            text-align: center;
+            padding-top: 15px;
+            letter-spacing: .75px;
+        }
+        .shopper-pic{
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 70px;
+            img{
+                min-width: 180px;
+                height: 180px;
+                object-fit: cover;
+                flex-basis: calc(16.66% - 70px);
+            }
+        }
+        
+    }
+    .shopper-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 40px 0px;
+        a{
+            flex-basis: 14.29%;
+            img{
+            height: 65px;
+            }
+            .stra{
+                height: 80px;
+            }
+            .mango{
+                height: 15px;
+            }
+            .zara {
+                height: 15px;
+                
+            }
+            .asos{
+                height: 30px;
+            }
+        }
+        
+    }
+}
